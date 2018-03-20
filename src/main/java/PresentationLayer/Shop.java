@@ -5,10 +5,19 @@
  */
 package PresentationLayer;
 
+import FunctionLayer.LoginSampleException;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
 /**
  *
  * @author Alek
  */
-public class Shop {
+public class Shop extends Command {
     
+    @Override
+    String execute( HttpServletRequest request, HttpServletResponse response ) throws LoginSampleException {
+
+        return "legoShop";
+    }
 }
