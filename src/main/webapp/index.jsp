@@ -3,7 +3,7 @@
     Created on : Aug 22, 2017, 2:01:06 PM
     Author     : kasper
 --%>
-
+<%@include file="includes/header.jsp" %>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -58,3 +58,6 @@
         %>
     </body>
 </html>
+
+
+<%@include file="includes/footer.jsp" %>
