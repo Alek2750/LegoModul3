@@ -8,11 +8,11 @@
         <title>Customer home page</title>
     </head>
     <body>
-        <h1>Goddag <%=request.getParameter( "email" )%> </h1>
-        You are now logged in as a customer of our wonderful site.
+    <center><h1>Goddag <%=request.getParameter( "email" )%> </h1></center>
+    <center> Du er nu logget ind som kunde på vores vidunderlige side</center><br>
         
-        
-        
+        <h2>Mine Order</h2>
+        <a href="FrontController?command=order"><button>Se alle order</button></a>
         <br>
         <br>
         <br>

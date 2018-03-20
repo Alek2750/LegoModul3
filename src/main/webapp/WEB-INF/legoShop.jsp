@@ -16,9 +16,9 @@
         <p>Her kan du ind taste størrelsen af det lego hus du vil have.</p>
         <form name="login" action="FrontController" method="POST">
             <p>Indtast længde</p>
-            <input type="number" name="legnht" value="0" placeholder="længde" />
+            <input type="number" name="length" value="0" placeholder="længde" />
             <p>Indtast bredde</p>
-            <input type="number" name="weidth" value="0" placeholder="bredde" />
+            <input type="number" name="width" value="0" placeholder="bredde" />
             <p>Indtast højde</p>
             <input type="number" name="height" value="0" placeholder="højde" />
             <br>

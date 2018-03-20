@@ -3,7 +3,7 @@
     Created on : Mar 20, 2018, 11:20:54 AM
     Author     : Alek
 --%>
-
+<%@include file="//includes/header.jsp" %>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -15,3 +15,4 @@
         <h1>Hello World!</h1>
     </body>
 </html>
+
