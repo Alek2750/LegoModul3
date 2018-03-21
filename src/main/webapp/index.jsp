@@ -1,17 +1,7 @@
-<%-- 
-    Document   : index
-    Created on : Aug 22, 2017, 2:01:06 PM
-    Author     : kasper
---%>
+
 <%@include file="includes/header.jsp" %>
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Welcome page</title>
-    </head>
-    <body>
+
+
         <h1>Welcome to Sem 2</h1>
         
         <table>
@@ -47,7 +37,7 @@
             </tr>
         </table>
         
-        <a href="FrontController?command=help">FÃ¥ hjÃ¦lp til din bestilling</a>
+        <a href="FrontController?command=help">Få hjælp til din bestilling</a>
         
         
         <% String error = (String) request.getAttribute( "error");
@@ -56,8 +46,7 @@
            <p><%= error %>
         <% }
         %>
-    </body>
-</html>
+
 
 
 <%@include file="includes/footer.jsp" %>
