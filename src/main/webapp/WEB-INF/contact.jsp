@@ -37,5 +37,15 @@
                 <input type="submit" value="Send">
             </form>
         </div>
+
+    <center><p>Du kan også ringe til os på:</p></center>
+
+        <table style="width:100%">
+            <tr>
+                <th colspan="2">Telefon</th>
+            </tr>
+                <td>Legohus</td>
+                <td>55577854</td>
+        </table>
     </body>
 </html>
