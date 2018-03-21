@@ -3,7 +3,7 @@
     Created on : Mar 20, 2018, 1:52:56 PM
     Author     : Alek
 --%>
-
+<%@include file="//includes/header.jsp" %>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -17,10 +17,10 @@
 
         <div class="container">
             <form action="/action_page.php">
-                <label for="fname">First Name</label>
+                <label for="fname">Fornavn</label>
                 <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
-                <label for="lname">Last Name</label>
+                <label for="lname">Efternavn</label>
                 <input type="text" id="lname" name="lastname" placeholder="Your last name..">
 
                 <label for="country">Land</label>
@@ -31,10 +31,10 @@
                     <option value="usa">Norge</option>
                 </select>
 
-                <label for="subject">Subject</label>
+                <label for="subject">Emne</label>
                 <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
 
-                <input type="submit" value="Submit">
+                <input type="submit" value="Send">
             </form>
         </div>
     </body>
