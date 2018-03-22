@@ -1,12 +1,12 @@
 
 <%@include file="includes/header.jsp" %>
-
+<link href="CSS/login.css" rel="stylesheet" type="text/css"/>
 
 <center><h1>Velkommen til Sem 2
         <br>
         Legohus</h1></center>
 
-<link href="CSS/login.css" rel="stylesheet" type="text/css"/>
+
 
 <div class="login">
     

@@ -20,8 +20,9 @@
             <input type="number" name="height" value="0" placeholder="højde" />
             <br>
             <br>
-            <input type="submit" class="button" value="Tilføj til order">
+            <a href="FrontController?command=addorder"><button class="button">Tilføj til order</button></a>
         </form>
+        
 
         
 
