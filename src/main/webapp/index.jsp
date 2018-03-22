@@ -2,40 +2,44 @@
 <%@include file="includes/header.jsp" %>
 
 
-        <h1>Welcome to Sem 2</h1>
-        
-        <table>
-            <tr><td>Login</td>
-                <td>
+<h1>Velkommen til Sem 2</h1>
+
+<link href="CSS/login.css" rel="stylesheet" type="text/css"/>
+
+<div class="wrapper">
+    <h2 class="form-signin-heading">Login</h2>
                     <form name="login" action="FrontController" method="POST">
                         <input type="hidden" name="command" value="login">
                         Email:<br>
-                        <input type="text" name="email" value="someone@nowhere.com">
+                        
+                        <input type="text" class="form-control" name="email" value="someone@nowhere.com" required="" autofocus="" />
                         <br>
                         Password:<br>
-                        <input type="password" name="password" value="sesam">
+                        
+                        <input type="password" class="form-control" name="password" value="sesam" required="" autofocus="" />
                         <br>
-                        <input type="submit" value="Submit">
+                        <input type="submit" value="Login">
                     </form>
-                </td>
-                <td>Or Register</td>
-                <td>
+                    
+                    <h2 class="form-signin-heading">Register dig</h2>
                     <form name="register" action="FrontController" method="POST">
-                        <input type="hidden" name="command" value="register">
+                        
+                        <input type="hidden" class="form-control" name="command" value="register">
                         Email:<br>
-                        <input type="text" name="email" value="someone@nowhere.com">
+                        
+                        <input type="text" class="form-control" name="email" value="someone@nowhere.com">
                         <br>
                         Password:<br>
-                        <input type="password" name="password1" value="sesam">
+                        
+                        <input type="password" class="form-control" name="password1" value="sesam">
                         <br>
                         Retype Password:<br>
-                        <input type="password" name="password2" value="sesam">
+                        
+                        <input type="password" class="form-control" name="password2" value="sesam">
                         <br>
-                        <input type="submit" value="Submit">
+                        <button class="btn btn-lg btn-primary btn-block" type="submit">submit</button>
                     </form>
-                </td>
-            </tr>
-        </table>
+        </div>
         
         <a href="FrontController?command=help">Få hjælp til din bestilling</a>
         

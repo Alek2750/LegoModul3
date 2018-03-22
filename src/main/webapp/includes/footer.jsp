@@ -1,5 +1,5 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<center><h4>Follow us on social media</h4></center>
+<center><h4>Følg os på de sociale medier</h4></center>
 <footer>
     <center>
         <a href="https://da-dk.facebook.com/" class="fa fa-facebook" target="blank"></a>

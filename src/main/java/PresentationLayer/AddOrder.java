@@ -25,6 +25,6 @@ public class AddOrder extends Command {
         session.setAttribute("length", getlength);
         session.setAttribute("width", getwidth);
         session.setAttribute("height", getheight);
-        return "legoShop";
+        return "myOrder";
     }
 }

@@ -17,7 +17,7 @@ abstract class Command {
         commands.put( "logout", new Logout());
         commands.put( "shop", new Shop());
         commands.put( "order", new Order());
-        commands.put( "addOrder", new AddOrder());
+        commands.put( "addorder", new AddOrder());
         commands.put( "contact", new Contact());
     }
 

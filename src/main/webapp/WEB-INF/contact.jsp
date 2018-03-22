@@ -1,18 +1,7 @@
-<%-- 
-    Document   : contact
-    Created on : Mar 20, 2018, 1:52:56 PM
-    Author     : Alek
---%>
+
 <%@include file="//includes/header.jsp" %>
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link href="CSS/contact.css" rel="stylesheet" type="text/css"/>
-        <title>JSP Page</title>
-    </head>
-    <body>
+
         <h3>Contact Form</h3>
 
         <div class="container">
@@ -38,7 +27,7 @@
             </form>
         </div>
 
-    <center><p>Du kan ogsÃ¥ ringe til os pÃ¥:</p></center>
+    <center><p>Du kan også ringe til os på:</p></center>
 
         <table style="width:100%">
             <tr>
