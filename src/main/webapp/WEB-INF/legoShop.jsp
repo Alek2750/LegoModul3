@@ -13,11 +13,11 @@
         
         <form name="login" action="FrontController?command=addorder" method="POST">
             <p>Indtast længde</p>
-            <input type="number" name="length" value="0" placeholder="længde" />
+            <input type="number" name="length" value="0" min="5" max="50" />
             <p>Indtast bredde</p>
-            <input type="number" name="width" value="0" placeholder="bredde" />
+            <input type="number" name="width" value="0" min="5" max="20" />
             <p>Indtast højde</p>
-            <input type="number" name="height" value="0" placeholder="højde" />
+            <input type="number" name="height" value="0" min="1" max="50" />
             <br>
             <br>
             <a href="FrontController?command=addorder"><button class="button">Tilføj til order</button></a>

@@ -10,19 +10,19 @@
 <table>
   <tr>
     <th>Firma</th>
-    <th>Produkt</th>
+    <th>Produkt størrelse(prikker)</th>
     <th>Kunde email</th>
     <th>Land</th>
   </tr>
   <tr>
     <td>Data Sem 2</td>
-    <td>Lego Hus</td>
+    <td>2x20x10</td>
     <td>someone@nowhere.com</td>
     <td>Tyskland</td>
   </tr>
   <tr>
     <td>Data Sem 2</td>
-    <td>Francisco Chang</td>
+    <td>4x14x6</td>
     <td>someone@nowhere.com</td>
     <td>Mexico</td>
   </tr>
@@ -51,6 +51,6 @@
     <td>Italien</td>
   </tr>
 </table>
-
+        
 <%@include file="//includes/footer.jsp" %>
 
