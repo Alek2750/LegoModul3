@@ -36,6 +36,5 @@
            i morgen. Der indgives hvert år enorme strenge af blade
            af større eller mindre tilsnit.</p>
         
-    </body>
-</html>
+
 <%@include file="//includes/footer.jsp" %>
