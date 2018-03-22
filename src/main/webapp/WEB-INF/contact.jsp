@@ -21,7 +21,7 @@
                 </select>
 
                 <label for="subject">Emne</label>
-                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                <textarea id="subject" name="subject" placeholder="Skriv kommentar.." style="height:200px"></textarea>
 
                 <input type="submit" value="Send">
             </form>
@@ -36,5 +36,4 @@
                 <td>Legohus</td>
                 <td>55577854</td>
         </table>
-    </body>
-</html>
+<%@include file="//includes/footer.jsp" %>

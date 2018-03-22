@@ -4,15 +4,53 @@
     Author     : Alek
 --%>
 <%@include file="//includes/header.jsp" %>
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
-    </head>
-    <body>
-        <h1>Hello World!</h1>
-    </body>
-</html>
+<link href="CSS/table.css" rel="stylesheet" type="text/css"/>
+        <h1>Order Liste</h1>
+
+<table>
+  <tr>
+    <th>Firma</th>
+    <th>Produkt</th>
+    <th>Kunde email</th>
+    <th>Land</th>
+  </tr>
+  <tr>
+    <td>Data Sem 2</td>
+    <td>Lego Hus</td>
+    <td>someone@nowhere.com</td>
+    <td>Tyskland</td>
+  </tr>
+  <tr>
+    <td>Data Sem 2</td>
+    <td>Francisco Chang</td>
+    <td>someone@nowhere.com</td>
+    <td>Mexico</td>
+  </tr>
+  <tr>
+    <td>Data Sem 2</td>
+    <td>Roland Mendel</td>
+    <td>someone@nowhere.com</td>
+    <td>UK</td>
+  </tr>
+  <tr>
+    <td>Data Sem 2</td>
+    <td>Helen Bennett</td>
+    <td>someone@nowhere.com</td>
+    <td>UK</td>
+  </tr>
+  <tr>
+    <td>Data Sem 2</td>
+    <td>Yoshi Tannamuri</td>
+    <td>jens@somewhere.com</td>
+    <td>Canada</td>
+  </tr>
+  <tr>
+    <td>Data Sem 2</td>
+    <td>Giovanni Rovelli</td>
+    <td>jens@somewhere.com</td>
+    <td>Italien</td>
+  </tr>
+</table>
+
+<%@include file="//includes/footer.jsp" %>
 
