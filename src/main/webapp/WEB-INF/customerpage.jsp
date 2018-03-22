@@ -12,4 +12,5 @@
         <br>
         <a href="FrontController?command=logout"><button>Log af</button></a>
         
-<%@include file="//includes/footer.jsp" %>
+    </body>
+</html>
