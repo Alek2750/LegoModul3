@@ -2,7 +2,9 @@
 <%@include file="includes/header.jsp" %>
 
 
-<h1>Velkommen til Sem 2</h1>
+<center><h1>Velkommen til Sem 2
+        <br>
+        Legohus</h1></center>
 
 <link href="CSS/login.css" rel="stylesheet" type="text/css"/>
 
@@ -42,7 +44,7 @@
     </form>
 </div>
 <br>
-<a href="FrontController?command=help">Få hjælp til din bestilling</a>
+<center><a href="FrontController?command=help">Få hjælp til din bestilling</a></center>
 
 
 <% String error = (String) request.getAttribute("error");

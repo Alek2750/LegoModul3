@@ -20,7 +20,7 @@
             <input type="number" name="height" value="0" placeholder="højde" />
             <br>
             <br>
-            <input type="submit" value="Submit">
+            <input type="submit" class="button" value="Tilføj til order">
         </form>
 
         
