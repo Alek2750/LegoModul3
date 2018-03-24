@@ -3,6 +3,7 @@
     Created on : Mar 20, 2018, 11:20:54 AM
     Author     : Alek
 --%>
+<%@page import="FunctionLayer.Order"%>
 <%@include file="//includes/header.jsp" %>
 <link href="CSS/table.css" rel="stylesheet" type="text/css"/>
         <h1>Order Liste</h1>
@@ -28,7 +29,11 @@
   </tr>
   <tr>
     <td>Data Sem 2</td>
-    <td>Roland Mendel</td>
+    <td><%
+                                    Order order = (Order)request.getAttribute("order");
+
+                                %>
+                                <%=order.getOrderID()%></td>
     <td>someone@nowhere.com</td>
     <td>UK</td>
   </tr>
