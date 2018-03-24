@@ -5,7 +5,7 @@
     <center> Du er nu logget ind som kunde på vores vidunderlige side</center><br>
         
         <h2>Mine Order</h2>
-        <a href="FrontController?command=order"><button>Se alle order</button></a>
+        <a href="FrontController?command=myOrder"><button>Se alle order</button></a>
         <br>
         <br>
         <br>
