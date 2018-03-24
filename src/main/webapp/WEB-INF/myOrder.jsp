@@ -29,11 +29,7 @@
   </tr>
   <tr>
     <td>Data Sem 2</td>
-    <td><%
-                                    Order order = (Order)request.getAttribute("order");
-
-                                %>
-                                <%=order.getOrderID()%></td>
+    <td></td>
     <td>someone@nowhere.com</td>
     <td>UK</td>
   </tr>

@@ -3,6 +3,7 @@
 <%@include file="//includes/header.jsp" %>
 
 <link href="CSS/button.css" rel="stylesheet" type="text/css"/>
+<link href="CSS/shop.css" rel="stylesheet" type="text/css"/>
         
         <h1>Byg selv legohus</h1>
         <h3>Hej <%=user.getEmail()%> herunder kan du læse hvordan du gør.</h3>
@@ -11,7 +12,7 @@
         
         
         
-        <form name="login" action="FrontController?command=addorder" method="POST">
+        <form name="login" class="input" action="FrontController?command=addorder" method="POST">
             <p>Indtast længde</p>
             <input type="number" name="length" value="0" min="5" max="50" />
             <p>Indtast bredde</p>
