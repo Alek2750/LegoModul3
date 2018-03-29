@@ -4,6 +4,7 @@
     Author     : Alek
 --%>
 <%@page import="FunctionLayer.Order"%>
+<%@page import="FunctionLayer.User"%>
 <%@include file="//includes/header.jsp" %>
 <link href="CSS/table.css" rel="stylesheet" type="text/css"/>
         <h1>Order Liste</h1>

@@ -81,4 +81,26 @@ public class UserMapper {
 
         }
     }
+    
+    public static int createOrder( User user, int height, int length, int width ) throws LoginSampleException {
+//public static int createOrder( int id, int height, int length, int width ) throws LoginSampleException {
+        try {
+            Connection con = Connector.connection();
+            String SQL = "INSERT INTO `order` ( height, length, width, user_id) VALUES (?,?,?,?)";
+            PreparedStatement ps = con.prepareStatement( SQL, Statement.RETURN_GENERATED_KEYS );
+            ps.setInt( 1, height);
+            ps.setInt( 2, length );
+            ps.setInt( 3, width );
+            ps.setInt( 4, user.getId());
+//            ps.setInt( 4, id);
+            ps.executeUpdate();
+            ResultSet ids = ps.getGeneratedKeys();
+            ids.next();
+//            int id = ids.getInt( 1 );
+            return ids.getInt( 1 );
+        } catch ( SQLException | ClassNotFoundException ex ) {
+            throw new LoginSampleException( ex.getMessage() );
+        }
+    }
+    
 }
